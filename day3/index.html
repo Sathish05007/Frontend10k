@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multi-Media Task</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    h1{
+        text-align: center; 
+        color: darkred;
+        margin-top: 20px;
+    }
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+      padding: 20px;
+      border: 3px solid red;
+      margin: 20px;
+      border-radius: 20px;
+    }
+    .movie {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 320px;
+      padding: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.2);
+      border-radius: 10px;
+    }
+    .movie img {
+    width: 100%;
+    height: 175px;
+    object-fit: contain;
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 5px;
+    border-radius: 70px;
+    }
+    .movie audio,
+    .movie video {
+      width: 100%;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+    <h1>South Indian Movie Songs & Trailers</h1>
+
+  <div class="container">
+    <div class="movie">
+      <img src="./img/pushpaa.jpg" alt="pushapa">
+      <audio controls loop>
+        <source src="./audio/a1.mp3" type="audio/mpeg">
+      </audio>
+      <video controls>
+        <source src="./video/v2.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="movie">
+      <img src="./img/kalki.jpeg" alt="kalki">
+      <audio controls loop>
+        <source src="./audio/a2.mp3" type="audio/mpeg">
+      </audio>
+      <video controls>
+        <source src="./video/v3.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="movie">
+      <img src="./img/kubera.jpeg" alt="kubera">
+      <audio controls loop>
+        <source src="./audio/a3.mp3" type="audio/mpeg">
+      </audio>
+      <video controls>
+        <source src="./video/v1.mp4" type="video/mp4">
+      </video>
+    </div>
+
+    <div class="movie">
+      <img src="./img/harihara.jpg" alt="harihara">
+      <audio controls loop>
+        <source src="./audio/a4.mp3" type="audio/mpeg">
+      </audio>
+      <video controls>
+        <source src="./video/v4.mp4" type="video/mp4">
+      </video>
+    </div>
+  </div>
+</body>
+</html>
