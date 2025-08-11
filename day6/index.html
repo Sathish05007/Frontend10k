@@ -8,7 +8,6 @@
         .container{
             display: flex;
             justify-content: space-around;
-            border: 2px red solid;
             height: 100vh;
         }
         .container-l{
@@ -112,6 +111,48 @@
                 text-align: center;
                 background-color: violet;
             }
+        }
+        @media (max-width:425px){
+          .container{
+            flex-wrap: wrap;
+            height: 200vh;
+          }
+          .container-l{
+            width: 100%;
+            height: 100vh;
+          }
+          .s h2{
+            margin:7px;
+          }
+          .container-r{
+            width: 100%;
+            margin-top: 40px;
+          }
+          .div3-r h3 {
+            margin-top: 0;
+          }
+
+        }
+        @media (max-width: 600px) and (min-width:426px){
+          .container{
+            flex-wrap: wrap;
+            height: 200vh;
+          }
+          .container-l{
+            width: 100%;
+            height: 100vh;
+          }
+          .s h2{
+            margin:7px;
+          }
+          .container-r{
+            width: 100%;
+            margin-top: 40px;
+          }
+          .div3-r h3 {
+            margin-top: 0;
+          }
+
         }
     </style>
 </head>
