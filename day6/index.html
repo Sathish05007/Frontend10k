@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            display: flex;
+            justify-content: space-around;
+            border: 2px red solid;
+            height: 100vh;
+        }
+        .container-l{
+            border:15px gray solid;
+            height: 90vh;
+            width: 40%;
+        
+        header{
+            border: 2px red solid;
+            text-align: center;
+            background-color: red;
+        }
+        nav{
+            text-align: center;
+            background-color: green;
+        }
+        footer{
+            text-align: center;
+            background-color: violet;
+        }
+        .c{
+            display: flex;
+            justify-content: space-evenly;
+            height: 60vh;
+        }
+        .c-l{
+            border: 2px pink solid;
+            background-color: pink;
+            text-align: center;
+            width: 30%;
+        }
+        .c-r{
+            border: 2px rgb(124, 159, 215);
+            background-color: rgb(114, 153, 198);
+            text-align: center;
+            width: 70%;
+        }
+        .m h1{
+            border: 1px aqua solid;
+            background-color: aqua;
+            height: 12vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .s{
+            /* height: 5vh; */
+            background-color: aqua;
+            border: 2px aqua solid;
+        }
+        .s h2{
+            background-color: yellow;
+            height: 5vh;
+
+        }
+        }
+        .container-r{
+            border:15px gray solid;
+            height: 90vh;
+            width: 40%;
+
+            .div1{
+                text-align: center;
+                background-color: rgb(185, 143, 223);
+            }
+            .div2{
+                text-align: center;
+                background-color: rgb(218, 218, 111);
+            }
+            .div3{
+                display: flex;
+                justify-content: space-evenly;
+            }
+            .div3-l{
+                text-align: center;
+                background-color:  rgb(185, 143, 223);
+                width: 30%;
+                height: 60vh;
+          
+            }
+            .div3-r{
+               text-align: center;
+                background-color:  rgb(185, 143, 223);
+                width: 65%;
+                height: 60vh;
+            }
+            .div3-r h3{
+                    border: 2px blue solid;
+                    height: 10vh;
+            }
+            .div3-r1{
+                border: 2px blue solid;
+                margin: 5px;
+            }
+            .div3-r1 h2{
+                border: 2px blue solid;
+                height: 10vh;
+                margin: 5px;
+            }
+            .div4{
+                text-align: center;
+                background-color: violet;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+   <div class="container-l">
+    <header>
+        <h1>header</h1>
+    </header>
+     <nav><h1>nav</h1></nav>
+     <div class="c">
+     <div class="c-l">
+        <aside><h1>aside</h1></aside>
+     </div>
+     <div class="c-r">
+        <h1>main</h1>
+        <div class="m">
+        <h1>artical</h1>
+        <div class="s">
+            <h1>section</h1>
+            <h2>img</h1>
+            <h2>p</h1>
+        </div>
+        </div>
+     </div>
+     </div>
+     <footer><h1>footer</h1></footer>
+   </div>
+   <div class="container-r">
+    <div class="div1"><h1>div</h1></div>
+    <div class="div2"><h1>span</h1></div>
+    <div class="div3">
+        <div class="div3-l">
+            <h1>div</h1>
+        </div>
+        <div class="div3-r">
+        <h1>div</h1>
+        <div class="div3-r1">
+            <h1>div</h1>
+            <h2>div</h2>
+            <h2>div</h2>
+        </div>
+        <h3>div</h3>
+    </div>
+    </div>
+    <div class="div4">
+        <h1>div</h1>
+    </div>
+
+   </div>
+   </div>
+</body>
+</html>
