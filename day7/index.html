@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Git & GitHub — End-to-End Guide</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <h1>Git & GitHub — End-to-End Guide</h1>
+        <div class="lead">Features • Need • Uses • History • How to create account & connect local repo</div>
+      </div>
+    </header>
+
+    <main>
+      <section class="card" aria-labelledby="what-is-git">
+        <h2 id="what-is-git">What is Git?</h2>
+        <p class="muted">Git is a distributed version control system for tracking changes in source code during software development. It helps teams collaborate, keeps history, and enables branching & merging.</p>
+
+        <div class="grid two-col">
+          <div>
+            <h3>Full form / name</h3>
+            <p>
+              There is no official "expanded" full form created by the author. Common informal expansions you may see:
+            </p>
+            <ul>
+              <li><strong>Global Information Tracker</strong> — a tongue-in-cheek backronym often used to describe Git's role</li>
+              <li><strong>"git"</strong> — the name chosen by Linus Torvalds; he has also joked about the meaning.</li>
+            </ul>
+          </div>
+          <div>
+            <h3>History (brief)</h3>
+            <p>
+              Git was created in <strong>2005</strong> by <strong>Linus Torvalds</strong> to support development of the Linux kernel when existing systems were not meeting the required performance and workflow needs. It quickly became the de-facto VCS for many projects.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="card" aria-labelledby="why-git">
+        <h2 id="why-git">Why you need Git (Need)</h2>
+        <ul>
+          <li><strong>Track changes:</strong> See who changed what and when.</li>
+          <li><strong>Collaboration:</strong> Multiple developers can work together safely.</li>
+          <li><strong>Branching:</strong> Work on features or fixes independently.</li>
+          <li><strong>History & rollback:</strong> Revert to previous versions if needed.</li>
+          <li><strong>Backup & continuity:</strong> Repositories can be pushed to remote hosts (GitHub, GitLab, Bitbucket).</li>
+        </ul>
+      </section>
+
+      <section class="card" aria-labelledby="features">
+        <h2 id="features">Key Features of Git</h2>
+        <ul>
+          <li><strong>Distributed:</strong> Every clone is a full copy of the repository history.</li>
+          <li><strong>Branches & merges:</strong> Lightweight branching model.</li>
+          <li><strong>Staging area:</strong> Add changes selectively with <code>git add</code>.</li>
+          <li><strong>Fast:</strong> Designed for performance with large repositories.</li>
+          <li><strong>Integrity:</strong> Uses SHA-1/SHA-256 hashes to ensure content integrity.</li>
+          <li><strong>Commit history:</strong> Detailed log of changes with messages and metadata.</li>
+        </ul>
+      </section>
+
+      <section class="card" aria-labelledby="uses">
+        <h2 id="uses">Common Uses</h2>
+        <ul>
+          <li>Software development (open source & commercial)</li>
+          <li>Documentation & content versioning</li>
+          <li>Project management & experiments (branching workflows)</li>
+          <li>Backups of code & configuration</li>
+        </ul>
+      </section>
+
+      <section class="card" aria-labelledby="install-and-config">
+        <h2 id="install-and-config">Install Git & Basic Local Setup</h2>
+        <p class="muted">Install Git for your OS (Windows / macOS / Linux). After installation, configure your name & email:</p>
+        <pre><code>git --version
+# configure identity (run once)
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+</code></pre>
+
+        <p class="note"><strong>Note:</strong> On Windows you can use Git for Windows + Git Bash. On macOS you may already have Git via Xcode command line tools.</p>
+      </section>
+
+      <section class="card" aria-labelledby="create-github">
+        <h2 id="create-github">How to create a GitHub account (step-by-step)</h2>
+        <ol>
+          <li>Open your browser and go to <strong>github.com</strong>.</li>
+          <li>Click <strong>Sign up</strong> / <em>Create an account</em>.</li>
+          <li>Enter your email, choose a username and password. Verify email when prompted.</li>
+          <li>Choose a plan (Free is fine for public & private repos).</li>
+          <li>Complete basic personalization (optional) and finish the signup steps.</li>
+          <li>After signup, you'll have a GitHub profile and can create repositories from the GitHub UI using the <strong>New</strong> button.</li>
+        </ol>
+
+        <p class="muted">Tip: verify your email address to enable pushing from local Git to GitHub and to create repositories without friction.</p>
+      </section>
+    </main>
+
+    <footer>
+      Built with ❤️.
+    </footer>
+  </div>
+</body>
+</html>
