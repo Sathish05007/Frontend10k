@@ -1,0 +1,51 @@
+    :root{
+      --bg:#f4f7fb; --card:#ffffff; --accent:#0b69ff; --muted:#6b7280;
+      --maxw:900px;
+      --radius:12px;
+      --mono: ui-monospace, SFMono-Regular, Menlo, Monaco, "Roboto Mono", "Courier New", monospace;
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0; font-family:Inter,system-ui,Arial,sans-serif; background:linear-gradient(180deg,#eef3ff 0%,var(--bg) 40%);
+      color:#0f172a; line-height:1.5; padding:36px 18px;
+      display:flex; justify-content:center;
+    }
+    .container{
+      width:100%; max-width:var(--maxw);
+    }
+    header{
+      display:flex; align-items:center; gap:16px; margin-bottom:18px;
+    }
+    .logo{
+      background:var(--card); padding:12px 14px; border-radius:10px; box-shadow:0 4px 18px rgba(11,105,255,0.08);
+      border-left:4px solid var(--accent); font-weight:700;
+    }
+    h1{margin:0; font-size:1.5rem}
+    .lead{color:var(--muted); margin-top:8px}
+
+    main{display:grid; gap:18px}
+
+    section.card{
+      background:var(--card); padding:18px; border-radius:var(--radius); box-shadow:0 6px 20px rgba(12,34,64,0.06);
+    }
+    h2{margin:0 0 8px 0; font-size:1.1rem}
+    p{margin:0 0 12px 0}
+
+    ul{margin:0 0 12px 18px}
+    code, pre{font-family:var(--mono); background:#0f172a10; padding:2px 6px; border-radius:6px}
+    pre{padding:12px; overflow:auto}
+    .grid{display:grid; gap:12px}
+    .two-col{grid-template-columns:1fr 1fr}
+    .muted{color:var(--muted); font-size:0.95rem}
+
+    .cta{
+      display:flex; gap:10px; flex-wrap:wrap; margin-top:8px;
+    }
+    .btn{
+      background:var(--accent); color:white; padding:8px 12px; border-radius:8px; text-decoration:none; font-weight:600;
+      display:inline-block;
+    }
+    .outline{background:transparent; border:1px solid #e6eefc; color:var(--accent); padding:8px 12px; border-radius:8px}
+    footer{margin-top:18px; text-align:center; color:var(--muted); font-size:0.9rem}
+    .note{background:#fffbeb;border-left:4px solid #f59e0b;padding:8px 12px;border-radius:8px;color:#92400e;margin-bottom:8px}
+    .kbd{display:inline-block;background:#11182710;padding:2px 6px;border-radius:6px;font-family:var(--mono);font-size:0.95rem}

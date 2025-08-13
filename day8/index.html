@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git&Github</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+      <div class="container">
+        <header>
+      <div>
+        <h1>Git & GitHub — End-to-End Guide</h1>
+        <div class="lead">Features • Need • Uses • History • How to create account & connect local repo</div>
+      </div>
+    </header>
+    <main>
+          <section class="card" aria-labelledby="create-repo">
+        <h2 id="create-repo">Create a new repository on GitHub & push local repo (common workflow)</h2>
+
+        <h3>1) Create repository on GitHub (via website)</h3>
+        <ul>
+          <li>On GitHub, click <strong>+ → New repository</strong>.</li>
+          <li>Give it a <kbd>Repository name</kbd> (e.g., <code>my-first-repo</code>), add optional description, choose Public/Private, then click <strong>Create repository</strong>.</li>
+        </ul>
+
+        <h3>2) Create & push a local repo (commands)</h3>
+        <pre><code># inside your project folder
+git init
+git add .
+git commit -m "Initial commit"
+
+# connect to GitHub remote (example using HTTPS)
+git remote add origin https://github.com/YOUR_USERNAME/my-first-repo.git
+
+# push the local 'main' branch up to GitHub (create remote branch)
+git branch -M main
+git push -u origin main
+</code></pre>
+
+        <p class="muted">If you use SSH, create an SSH key and add the public key to GitHub settings, then use the SSH remote url instead (git@github.com:...).</p>
+      </section>
+
+      <section class="card" aria-labelledby="common-commands">
+        <h2 id="common-commands">Common Git Commands (cheatsheet)</h2>
+        <div class="grid two-col">
+          <div>
+            <h3>Staging & commits</h3>
+            <pre><code>git status
+git add <file>
+git add .
+git commit -m "Message"
+git commit --amend
+</code></pre>
+          </div>
+          <div>
+            <h3>Branches & remotes</h3>
+            <pre><code>git branch
+git branch -M main
+git checkout -b feature/xyz
+git merge main
+git remote -v
+git push origin branch-name
+git pull origin main
+</code></pre>
+          </div>
+        </div>
+
+        <h3>Other helpful commands</h3>
+        <pre><code>git log --oneline
+git diff
+git revert <commit>
+git reset --hard <commit>   # be careful - can discard changes
+</code></pre>
+      </section>
+
+      <section class="card" aria-labelledby="workflow">
+        <h2 id="workflow">Simple Git Workflow (recommended for beginners)</h2>
+        <ol>
+          <li>Clone repository: <code>git clone &lt;repo-url&gt;</code></li>
+          <li>Create a branch: <code>git checkout -b feature/your-feature</code></li>
+          <li>Make changes & commit often: <code>git add .</code> → <code>git commit -m "msg"</code></li>
+          <li>Push branch: <code>git push origin feature/your-feature</code></li>
+          <li>Create a Pull Request on GitHub to merge your branch into <code>main</code></li>
+        </ol>
+      </section>
+      </main>
+      </div>
+</body>
+</html>
