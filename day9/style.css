@@ -1,52 +1,18 @@
-        h2 {
-            color: #2c3e50;
-            margin-top: 25px;
-        }
-
-        p {
-            margin-bottom: 10px;
-        }
-
-        .highlight {
-            background-color: yellow;
-            font-weight: bold;
-        }
-
-        #main-title {
-            color: darkred;
-        }
-
-        /* Group Selector */
-        h3, code {
-            color: #333;
-        }
-
-        /* Descendant Selector */
-        div p {
-            color: green;
-        }
-
-        /* Child Selector */
-        div > span {
-            color: purple;
-        }
-
-        /* Pseudo-Class Selector */
-        a:hover {
-            color: orange;
-            text-decoration: underline;
-        }
-
-        /* Attribute Selector */
-        input[type="text"] {
-            border: 2px solid black;
-            padding: 5px;
-        }
-
-        /* Box styling for examples */
-        .example-box {
-            border: 1px solid #ccc;
-            background: #fff;
-            padding: 10px;
-            margin: 10px 0;
-        }
+    .name {
+      color: blue;
+    }
+    .hex {
+      color: #ff0000;
+    }
+    .rgb {
+      color: rgb(0,128,0);
+    }
+    .rgba {
+      color: rgba(255,0,0,0.5);
+    }
+    .hsl {
+      color: hsl(200,100%,40%);
+    }
+    .hsla {
+      color: hsla(300,100%,40%,0.6);
+    }

@@ -1,94 +1,78 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CSS Introduction, Types & Selectors</title>
-    <link rel="stylesheet" href="./style.css">
-    <style>
-        /* Universal Selector */
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Introduction, Types & Selectors</title>
+  <link rel="stylesheet" href="./style.css">
+  <style>
+    p {
+      color: blue;
+    }
 
-        body {
-            font-family: Arial, sans-serif;
-            background-color: #f8f9fa;
-            padding: 20px;
-            line-height: 1.6;
-        }
+    .example-box {
+      border: 1px solid #ccc;
+      padding: 10px;
+      margin: 10px 0;
+    }
+    .example {
+      padding: 10px;
+      margin: 5px 0;
+      border: 2px solid black;
+      width: fit-content;
+    }
+    .text-color {
+      color: red;
+    }
+    .bg-color {
+      background-color: lightblue;
+    }
+    .border-color {
+      border-color: green;
+    }
+    .opacity-demo {
+      background: purple;
+      color: white;
+      opacity: 0.6;
+    }
 
-        h1 {
-            text-align: center;
-            color: darkblue;
-            margin-bottom: 20px;
-        }
-    </style>
+  </style>
 </head>
 <body>
 
-    <h1>CSS Introduction, Types & Selectors</h1>
+  <h1>CSS Introduction, Types & Selectors</h1>
 
-    <h2>1. What is CSS?</h2>
-    <p><b>CSS</b> (Cascading Style Sheets) is used to style HTML elements, control layout, colors, fonts, and more. It separates content (HTML) from presentation (design).</p>
+  <h2>1. What is CSS?</h2>
+  <p><b>CSS</b> (Cascading Style Sheets) is used to style HTML elements, control layout, colors, fonts, and more. It separates content (HTML) from presentation (design).</p>
 
-    <h2>2. Types of CSS</h2>
+  <h2>2. Types of CSS</h2>
 
-    <h3>A. Inline CSS</h3>
-    <div class="example-box">
-        <p style="color: red; font-size: 18px;">This is inline CSS</p>
-    </div>
+  <h3>A. Inline CSS</h3>
+  <div class="example-box">
+    <p style="color: red; font-size: 18px;">This is inline CSS</p>
+  </div>
 
-    <h3>B. Internal CSS</h3>
-    <div class="example-box">
-        <p>This text is styled using internal CSS (blue color for all &lt;p&gt; elements).</p>
-    </div>
+  <h3>B. Internal CSS</h3>
+  <div class="example-box">
+    <p>This text is styled using internal CSS (blue color for all &lt;p&gt; elements).</p>
+  </div>
 
-    <h3>C. External CSS</h3>
-    <p>External CSS is written in a separate <code>.css</code> file and linked with <code>&lt;link&gt;</code>. (Not shown here, but works like internal CSS.)</p>
+  <h3>C. External CSS</h3>
+  <p>External CSS is written in a separate <code>.css</code> file and linked with <code>&lt;link&gt;</code>. (Not shown here, but works like internal CSS.)</p>
 
-    <h2>3. CSS Selectors</h2>
+  <!-- 🎨 COLOR SYSTEM -->
+  <h1>🎨 Color System</h1>
+  <div class="example text-color">color → red text</div>
+  <div class="example bg-color">background-color → lightblue background</div>
+  <div class="example border-color">border-color → green border</div>
+  <div class="example opacity-demo">opacity → semi-transparent purple</div>
 
-    <h3>1. Universal Selector (*)</h3>
-    <p>Removes default margin/padding for all elements.</p>
-
-    <h3>2. Element Selector</h3>
-    <p>Example: <code>p { color: blue; }</code> changes all paragraph text to blue.</p>
-
-    <h3>3. ID Selector (#)</h3>
-    <div class="example-box">
-        <h3 id="main-title">This heading is styled with an ID selector</h3>
-    </div>
-
-    <h3>4. Class Selector (.)</h3>
-    <div class="example-box">
-        <p class="highlight">This paragraph uses the "highlight" class.</p>
-    </div>
-
-    <h3>5. Group Selector (,)</h3>
-    <p>Example: <code>h1, h2, p { font-family: Arial; }</code> applies the same style to multiple tags.</p>
-
-    <h3>6. Descendant Selector (space)</h3>
-    <div class="example-box">
-        <p>This paragraph is inside a div (descendant selector applied - green text).</p>
-    </div>
-
-    <h3>7. Child Selector (&gt;)</h3>
-    <div class="example-box">
-        <span>This span is a direct child of a div (purple text).</span>
-    </div>
-
-    <h3>8. Pseudo-Class Selector</h3>
-    <div class="example-box">
-        <a href="#">Hover over this link to see the effect</a>
-    </div>
-
-    <h3>9. Attribute Selector</h3>
-    <div class="example-box">
-        <input type="text" placeholder="Text input styled by attribute selector">
-    </div>
+  <div class="example name">Name → blue</div>
+  <div class="example hex">HEX → #ff0000 red</div>
+  <div class="example rgb">RGB → rgb(0,128,0) green</div>
+  <div class="example rgba">RGBA → rgba(255,0,0,0.5) semi-transparent red</div>
+  <div class="example hsl">HSL → hsl(200,100%,40%) teal blue</div>
+  <div class="example hsla">HSLA → hsla(300,100%,40%,0.6) semi-transparent purple</div>
 
 </body>
 </html>

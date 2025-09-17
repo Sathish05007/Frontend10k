@@ -1,47 +1,52 @@
-    body {
+  
+    /* Universal Selector */
+    * {
       font-family: Arial, sans-serif;
-      margin: 20px;
     }
 
-    h1 {
-      margin-top: 40px;
-      color: darkblue;
+    /* Element Selector */
+    p {
+      color: blue;
     }
 
-    .example {
-      margin: 10px 0;
-      padding: 8px;
-      border: 1px solid #ccc;
-      border-radius: 6px;
-      background: #fdfdfd;
+    /* ID Selector */
+    #special {
+      color: red;
+      font-weight: bold;
     }
 
-    /* 🎨 Color System */
-    .text-color { color: red; }
-    .bg-color { background-color: lightblue; }
-    .border-color { border: 3px solid green; }
-    .opacity-demo { background: purple; color: white; opacity: 0.6; }
+    /* Class Selector */
+    .highlight {
+      background-color: yellow;
+      padding: 3px;
+    }
 
-    .name { color: blue; }
-    .hex { color: #ff0000; }
-    .rgb { color: rgb(0,128,0); }
-    .rgba { color: rgba(255,0,0,0.5); }
-    .hsl { color: hsl(200, 100%, 40%); }
-    .hsla { color: hsla(300, 100%, 40%, 0.6); }
+    /* Group Selector */
+    h2, h3 {
+      color: green;
+    }
 
-    /* 🔤 Font Properties */
-    .family { font-family: "Courier New", monospace; }
-    .size { font-size: 28px; }
-    .weight { font-weight: bold; }
-    .style { font-style: italic; }
-    .variant { font-variant: small-caps; }
-    .line { line-height: 2; background: #eee; }
+    /* Descendant Selector */
+    div p {
+      font-style: italic;
+    }
 
-    /* 📝 Text Properties */
-    .align { text-align: center; background: #f0f0f0; }
-    .decoration { text-decoration: underline overline; }
-    .transform { text-transform: uppercase; }
-    .letter { letter-spacing: 5px; }
-    .word { word-spacing: 15px; }
-    .shadow { text-shadow: 2px 2px 5px gray; }
-    .direction { direction: rtl; background: #f9f9f9; }
+    /* Child Selector */
+    div > span {
+      color: purple;
+    }
+
+    /* Adjacent Sibling Selector */
+    h3 + p {
+      background: lightgray;
+    }
+
+    /* General Sibling Selector */
+    h2 ~ p {
+      border: 1px dashed orange;
+    }
+
+    /* Attribute Selector */
+    a[target="_blank"] {
+      color: brown;
+    }
