@@ -1,0 +1,67 @@
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+        background: #f8f9fa;
+        color: #000;
+    }
+    .container {
+        width: 40%;
+        margin: auto;
+        background: #fff;
+        padding: 20px 40px;
+        box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    h1 {
+        text-align: center;
+        margin-bottom: 10px;
+        font-size: 25px;
+    }
+
+    .contact {
+        text-align: center;
+        font-size: 14px;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+    .contact a {
+        color: #0066cc;
+        text-decoration: none;
+    }
+    h2 {
+        background: #e9ecef;
+        padding: 5px 10px;
+        margin-top: 25px;
+        font-size: 18px;
+    }
+    ul {
+        margin: 8px 0 8px 20px;
+    }
+    .section {
+        margin-bottom: 15px;
+    }
+    .skills-list strong {
+        display: inline-block;
+        width: 150px;
+    }
+    .soft-skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+        margin-top: 10px;
+    }
+    .soft-skills span {
+        background: #e9ecef;
+        padding: 4px 8px;
+        border-radius: 5px;
+        font-size: 14px;
+    }
+    p,li{
+        font-size: 12px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    @media (max-width:425px){
+        .container{
+            width: 95%;
+        }
+    }
