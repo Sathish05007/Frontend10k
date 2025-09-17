@@ -17,3 +17,7 @@ DAY 08:-Continued practicing Git — branching, `git status`, `git log`.
 
 DAY 09:-Learned the basics of CSS and how it works with HTML.
 Explored colors.
+
+DAY 10:- CSS PROPERTIES (TEXT,FONT)
+
+DAY 11:-CSS PROPERTIES (BACKGROUND,DISPLAY,OVER FLOW)
