@@ -1,41 +1,90 @@
-/* Background properties */
-body {
-    background-color: lightblue;
-    background-image: url("https://picsum.photos/1200/800");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
-    font-family: "Arial", sans-serif;
-    /* Default font for page */
+/* Universal Selector */
+* {
+  margin: 5px;
+  padding: 0;
+  font-family: Arial, sans-serif;
 }
 
-/* Font properties */
-h1 {
-    font-family: "Georgia", serif;
-    font-size: 40px;
-    font-style: italic;
-    font-weight: bold;
-    font-variant: small-caps;
-    color: darkred;
-    text-align: center;
-    margin-top: 30px;
-}
-
-/* Text properties */
+/* Element Selector */
 p {
-    color: navy;
-    text-align: justify;
-    text-decoration: underline;
-    text-transform: capitalize;
-    line-height: 1.8;
-    letter-spacing: 2px;
-    word-spacing: 5px;
-    text-shadow: 2px 2px 5px gray;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.7);
-    /* Transparent box */
-    border-radius: 10px;
-    width: 80%;
-    margin: 20px auto;
+  color: navy;
+}
+
+/* ID Selector */
+#special {
+  color: red;
+  font-weight: bold;
+}
+
+/* Class Selector */
+.highlight {
+  background-color: yellow;
+  padding: 5px;
+}
+
+/* Group Selector */
+h2, h3 {
+  color: green;
+}
+
+/* Descendant Selector */
+div p {
+  font-style: italic;
+}
+
+/* Child Selector */
+div > span {
+  color: blue;
+  font-size: 18px;
+}
+
+/* Adjacent Sibling Selector */
+h3 + p {
+  color: purple;
+  text-decoration: underline;
+}
+
+/* General Sibling Selector */
+h2 ~ p {
+  color: brown;
+}
+
+/* Attribute Selector */
+a[target="_blank"] {
+  color: darkorange;
+  font-weight: bold;
+}
+
+/* --- Extra Section: Text Properties --- */
+.text-example {
+  color: darkblue;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: underline;
+  letter-spacing: 3px;
+  word-spacing: 10px;
+  text-shadow: 2px 2px 4px gray;
+}
+
+/* --- Extra Section: Font Properties --- */
+.font-example {
+  font-family: "Georgia", serif;
+  font-size: 22px;
+  font-style: italic;
+  font-weight: bold;
+  font-variant: small-caps;
+  color: maroon;
+}
+
+/* --- Extra Section: Background Properties --- */
+.bg-example {
+  background-color: lightblue;
+  background-image: url("https://picsum.photos/400/200");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+  font-weight: bold;
 }
