@@ -1,0 +1,41 @@
+/* Background properties */
+body {
+    background-color: lightblue;
+    background-image: url("https://picsum.photos/1200/800");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: "Arial", sans-serif;
+    /* Default font for page */
+}
+
+/* Font properties */
+h1 {
+    font-family: "Georgia", serif;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: darkred;
+    text-align: center;
+    margin-top: 30px;
+}
+
+/* Text properties */
+p {
+    color: navy;
+    text-align: justify;
+    text-decoration: underline;
+    text-transform: capitalize;
+    line-height: 1.8;
+    letter-spacing: 2px;
+    word-spacing: 5px;
+    text-shadow: 2px 2px 5px gray;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Transparent box */
+    border-radius: 10px;
+    width: 80%;
+    margin: 20px auto;
+}
