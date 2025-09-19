@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS - Display, Float, Overflow</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>CSS Properties: Display, Float, Overflow</h1>
+
+  <!-- DISPLAY -->
+  <h2>1. Display</h2>
+  <p><strong>Inline Example:</strong></p>
+  <div class="inline-example">
+    <span>Inline 1</span>
+    <span>Inline 2</span>
+    <span>Inline 3</span>
+  </div>
+
+  <p><strong>Block Example:</strong></p>
+  <div class="block-example">
+    <div>Block 1</div>
+    <div>Block 2</div>
+  </div>
+
+  <p><strong>Inline-block Example:</strong></p>
+  <div class="inline-block-example">
+    <div>Box 1</div>
+    <div>Box 2</div>
+    <div>Box 3</div>
+  </div>
+
+  <p><strong>None Example:</strong></p>
+  <p class="none-example">This text is hidden using <code>display: none</code>.</p>
+
+  <!-- FLOAT -->
+  <h2>2. Float</h2>
+  <div class="float-container">
+    <div class="float-box">Left 1</div>
+    <div class="float-box">Left 2</div>
+    <div class="float-box float-right">Right</div>
+    <p>This paragraph text flows around the floated boxes. Floats are often used for layouts and images.</p>
+    <div style="clear: both;"></div>
+  </div>
+
+  <!-- OVERFLOW -->
+  <h2>3. Overflow</h2>
+  <p><strong>Visible (default):</strong></p>
+  <div class="overflow-container overflow-visible">
+    This is some long text that will overflow the box boundaries and remain visible outside the box.
+  </div>
+
+  <p><strong>Hidden:</strong></p>
+  <div class="overflow-container overflow-hidden">
+    This is some long text that will be cut off and hidden when it overflows the box boundaries.
+  </div>
+
+  <p><strong>Scroll:</strong></p>
+  <div class="overflow-container overflow-scroll">
+    This is some long text that will make the container scrollable when it overflows the box boundaries. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.
+  </div>
+
+  <p><strong>Auto:</strong></p>
+  <div class="overflow-container overflow-auto">
+    This is some long text that will add scrollbars only if needed. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt.
+  </div>
+</body>
+</html>

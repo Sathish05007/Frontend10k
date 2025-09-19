@@ -1,0 +1,59 @@
+    .inline-example span {
+      display: inline;
+      background: lightgreen;
+      padding: 5px;
+    }
+    .block-example div {
+      display: block;
+      background: lightcoral;
+      margin: 5px 0;
+      padding: 10px;
+    }
+    .inline-block-example div {
+      display: inline-block;
+      background: lightblue;
+      width: 100px;
+      margin: 5px;
+      padding: 10px;
+      text-align: center;
+    }
+    .none-example {
+      display: none;
+    }
+
+    .float-container {
+      border: 2px solid black;
+      padding: 10px;
+    }
+    .float-box {
+      width: 100px;
+      height: 100px;
+      margin: 10px;
+      float: left;
+      background-color: skyblue;
+      text-align: center;
+      line-height: 100px;
+    }
+    .float-right {
+      float: right;
+      background-color: orange;
+    }
+    .overflow-container {
+      width: 250px;
+      height: 100px;
+      border: 2px solid purple;
+      margin: 10px 0;
+      padding: 5px;
+    }
+    .overflow-visible {
+      overflow: visible;
+    }
+    .overflow-hidden {
+      overflow: hidden;
+    }
+    .overflow-scroll {
+      overflow: scroll;
+    }
+    .overflow-auto {
+      overflow: auto;
+    }
