@@ -24,4 +24,6 @@ DAY 10:- **CSS Selectors** ` Universal Selector`,` Element Selector`,` ID Select
 
 DAY 11:-**Text Properties**,**Font Properties**,**Background Properties**
 
+DAY 12:-**Display**, **Float**, **Overflow**
+
 
