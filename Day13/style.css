@@ -1,0 +1,91 @@
+    body {
+        font-family: Arial, sans-serif;
+        background: #f3f4f6;
+        margin: 20px;
+    }
+
+    h2 {
+        margin-top: 40px;
+        color: #333;
+    }
+
+    /* General container */
+    .example {
+        border: 2px dashed #444;
+        background: #fff;
+        padding: 15px;
+        margin-bottom: 40px;
+    }
+
+    /* Box Model Demo */
+    .box {
+        width: 200px;
+        /* content width */
+        height: 100px;
+        /* content height */
+        padding: 20px;
+        /* space inside */
+        border: 5px solid blue;
+        /* border */
+        margin: 30px;
+        /* space outside */
+        background-color: lightyellow;
+    }
+
+    /* Padding Example */
+    .padding-box {
+        width: 200px;
+        height: 80px;
+        padding: 30px;
+        border: 3px solid blue;
+        background: lightgreen;
+    }
+
+    /* Margin Example */
+    .margin-box {
+        width: 200px;
+        height: 80px;
+        border: 3px solid green;
+        background: lightpink;
+        margin: 40px;
+    }
+
+    /* Border Types Example */
+    .border-types div {
+        width: 180px;
+        padding: 10px;
+        margin: 10px 0;
+        background: #fafafa;
+    }
+
+    .solid {
+        border: 3px solid black;
+    }
+
+    .dashed {
+        border: 3px dashed green;
+    }
+
+    .dotted {
+        border: 3px dotted red;
+    }
+
+    .double {
+        border: 4px double purple;
+    }
+
+    .groove {
+        border: 6px groove brown;
+    }
+
+    .ridge {
+        border: 6px ridge orange;
+    }
+
+    .inset {
+        border: 6px inset gray;
+    }
+
+    .outset {
+        border: 6px outset teal;
+    }
