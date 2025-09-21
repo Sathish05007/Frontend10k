@@ -25,7 +25,7 @@ DAY 08:-Continued practicing **Git — branching**, `git status`, `git log`.
 DAY 09:-Learned the**basics of CSS**and how it works with HTML.
 Explored **colors.**
 
-DAY 10:- **CSS Selectors** ` Universal Selector`,` Element Selector`,` ID Selector`,`Class Selector`,
+DAY 10:- **CSS Selectors** ` Universal Selector`,` Element Selector`,` ID Selector`,`Class Selector`,(**https://sathish05007.github.io/Frontend10k/day9/index.html**)
 
 DAY 11:-**Text Properties**,**Font Properties**,**Background Properties**
 
