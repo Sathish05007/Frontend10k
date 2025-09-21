@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    height: 160vh;
+    margin: auto;
+    width: 80%;
+}
+.title h2{
+    text-align: center;
+    font-family: cursive;
+    margin: 30px;
+}
+.c-box{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+.box{
+    border: 1px white solid;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    height: 75vh;
+    width: 24%;
+}
+.box img{
+    margin: 20px;
+    height: 50vh;
+    width: 90%;
+    border-radius: 20px;
+}
+.box h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.box p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.cook{
+    width: 80%;
+    margin: auto;
+}
+.cook h3{
+    text-align: center;
+    font-family: cursive;
+    margin-bottom: 20px;
+}
+
+.img{
+    /* border: 2px red solid; */
+    display: flex;
+    justify-content: center;
+}
+.img img{
+       margin: auto;
+}
+.cook h2,h4,p{
+    text-align: center;
+    margin: 20px;
+}
+
+.footer{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    margin: auto;
+    margin-top: 70px;
+}
+.foot{
+    width: 30%;
+    border: 2px gray solid; 
+    border-radius: 20px;
+    padding: 10px;
+}
+.foot h3{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+.foot p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.fb{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+}
+.fb1{
+    display: flex;
+justify-content: space-evenly;
+margin: 10px;
+}
+.fb1 img{
+    width: 50px;
+}
+.fp{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.fp p{
+background-color: black;
+color: white;
+padding: 5px 10px;
+border-radius: 5px;
+}
+
+
+@media screen and (max-width:426px){
+    .container{
+        height: auto;
+    }
+    .box{
+        width: 100%;
+        margin: 5px;
+    }
+    .img{
+        width: 100%;
+    }
+    .img img{
+        width: 100%;
+    }
+    .foot{
+        width: 90%;
+        margin: 10px;
+    }
+}
+
+@media screen and (min-width:427px) and (max-width:769px){
+      .container{
+        height: auto;
+    }
+    .box{
+        width: 48%;
+        margin: 5px;
+    }
+    .img{
+        width: 100%;
+    }
+    .img img{
+        width: 100%;
+    }
+    .foot{
+        width: 90%;
+        margin: 10px;
+    }
+}

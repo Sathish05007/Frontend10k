@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TSRTC Bus Pass Form</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <div class="logo">
+      <img src="./logo.jpeg" alt="tartc logo">
+    </div>
+    <div class="t1"><h3>TELANGANA STATE ROAD TRANSPORT CORPORATION</h3></div>
+    <div class="t2"><h2>STUDENT BUS PASS APPLICATION ABOVE SSC</h2></div>
+    <div class="t3"><h4>Note: TGSRTC officers has reserve right to cancel Registration, ID and Ticket at any point of time.</h4></div>
+
+    <form onsubmit="alert('Successfully Done')">
+   
+      <fieldset>
+        <legend>1. Student 10th Details</legend>
+        <label>1.1 SSC Board Type *</label>
+        <select required>
+          <option value="">--Select--</option>
+          <option>SSC</option>
+          <option>CBSE</option>
+        </select>
+
+        <label>1.2 SSC Regular/Supplementary *</label>
+        <select required>
+          <option value="">--Select--</option>
+          <option>Regular</option>
+          <option>Supplementary</option>
+        </select>
+
+        <label>1.3 SSC Year of Pass *</label>
+        <input type="text" required>
+
+        <label>1.4 SSC Hall Ticket No *</label>
+        <input type="text" required>
+
+        <label>1.5 Date of Birth (dd/mm/yyyy) *</label>
+        <input type="date" required>
+      </fieldset>
+
+     
+      <fieldset>
+        <legend>2. Student Details</legend>
+        <label>2.1 Name *</label>
+        <input type="text" maxlength="20" required>
+
+        <label>2.2 Father's / Guardian's Name</label>
+        <input type="text">
+
+        <label>2.3 Date of Birth *</label>
+        <input type="date" required>
+
+        <label>2.4 Gender *</label>
+        <input type="radio" name="gender" value="Female" required> Female
+        <input type="radio" name="gender" value="Male"> Male
+
+        <label>2.5 Aadhaar No</label>
+        <input type="text">
+
+        <label>2.6 WhatsApp No *</label>
+        <input type="text" required>
+
+        <label>2.7 Is Employee Children</label>
+        <input type="radio" name="employee" value="Yes"> Yes
+        <input type="radio" name="employee" value="No"> No
+
+        <label>2.8 Email *</label>
+        <input type="email" required>
+
+        <label>2.9 Photo *</label>
+        <input type="file" required>
+      </fieldset>
+
+     
+      <fieldset>
+        <legend>3. Residential Address Details</legend>
+        <label>3.1 District *</label>
+        <select required>
+          <option value="">--Select--</option>
+          <option>KNR</option>
+          <option>HYD</option>
+        </select>
+
+        <label>3.2 Mandal *</label>
+        <select required>
+          <option value="">--Select--</option>
+          <option>KNR</option>
+          <option>HYD</option>
+        </select>
+
+        <label>3.3 Village *</label>
+        <select required>
+          <option value="">--Select--</option>
+          <option>KNR</option>
+          <option>HYD</option>
+        </select>
+
+        <label>3.4 Address *</label>
+        <input type="text" maxlength="20" required>
+
+        <label>3.5 Postal Code *</label>
+        <input type="text" required>
+      </fieldset>
+
+     
+      <fieldset>
+        <legend>4. Institution Details</legend>
+        <label>4.1 District *</label>
+        <select required>
+          <option value="">--Select--</option>
+          <option>KNR</option>
+          <option>HYD</option>
+        </select>
+
+        <label>4.2 Mandal *</label>
+        <select required>
+          <option value="">--Select--</option>
+          <option>KNR</option>
+          <option>HYD</option>
+        </select>
+
+        <label>4.3 Institution Name *</label>
+        <input type="text" required>
+
+        <label>4.4 Course Name *</label>
+        <select required>
+          <option value="">--Select--</option>
+          <option>MCA</option>
+          <option>MBA</option>
+          <option>B.Tech</option>
+        </select>
+
+        <label>4.5 Admission No *</label>
+        <input type="text" required>
+
+        <label>4.6 Institution Address</label>
+        <input type="text">
+      </fieldset>
+
+    
+      <fieldset>
+        <legend>5. Route Details</legend>
+        <label>5.1 At which center you want to collect ID/PASS *</label>
+        <select required>
+          <option>knr1 bus stop</option>
+          <option>knr Depo</option>
+        </select>
+
+        <label>5.2 Pass Type Required *</label>
+        <select required>
+          <option>Monthly</option>
+          <option>3 Months</option>
+          <option>6 Months</option>
+          <option>9 Months</option>
+        </select>
+      </fieldset>
+
+      
+      <fieldset>
+        <legend>6. Mode of Payment & Pass Collection</legend>
+        <label>Select Payment Mode</label>
+        <select required>
+          <option value="">--Select Payment Mode--</option>
+          <option>Online</option>
+          <option>Pay at Center</option>
+        </select>
+
+        <label>Select Pass Delivery Mode</label>
+        <select required>
+          <option value="">--Select Pass Delivery Mode--</option>
+          <option>Manually</option>
+        </select>
+      </fieldset>
+
+     
+      <div class="submit-area">
+        <div>
+          <input type="text" value="HhJ3zf" readonly style="background-color: #800000; color: white; text-align: center;">
+          <input type="text" placeholder="Enter Captcha" required>
+        </div>
+        <br>
+        <input type="submit" value="Submit" >
+      </div>
+    </form>
+  </div>
+</body>
+</html>
