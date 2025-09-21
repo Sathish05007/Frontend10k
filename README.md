@@ -5,6 +5,7 @@ DAY 01:-Introduction to **HTML** — structure (`<html>`, `<head>`, `<body>`), h
 (**https://sathish05007.github.io/Frontend10k/day1/index.html**),(**https://sathish05007.github.io/Frontend10k/TASK/task4/index.html**)
 
 DAY 02:-Worked with **HTML tables**,**List**,**Details&Summary**(`<table>`, `<tr>`, `<td>`, `<th>`), border styling, and the `<summary>` tag in `<details>`. `<ul>`,`<li>`,`<ol>`,`<dl>`,`<dt>`,`<dd>`,
+(**https://sathish05007.github.io/Frontend10k/day2/index.html**)
 
 DAY 03:-Used HTML **multimedia tags** — `<audio>`, `<video>`, `<source>`; practiced adding controls, autoplay, and loop.(**https://sathish05007.github.io/Frontend10k/TASK/task1/index.html**)
 
