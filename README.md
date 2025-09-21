@@ -20,6 +20,7 @@ DAY 07:-**Git basics** — creating repositories, `git init`, `git add`, `git co
 (**https://sathish05007.github.io/Frontend10k/day7/index.html**)
 
 DAY 08:-Continued practicing **Git — branching**, `git status`, `git log`. 
+(**https://sathish05007.github.io/Frontend10k/day8/index.html**)
 
 DAY 09:-Learned the**basics of CSS**and how it works with HTML.
 Explored **colors.**
