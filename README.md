@@ -6,7 +6,7 @@ DAY 01:-Introduction to **HTML** — structure (`<html>`, `<head>`, `<body>`), h
 
 DAY 02:-Worked with **HTML tables**,**List**,**Details&Summary**(`<table>`, `<tr>`, `<td>`, `<th>`), border styling, and the `<summary>` tag in `<details>`. `<ul>`,`<li>`,`<ol>`,`<dl>`,`<dt>`,`<dd>`,
 
-DAY 03:-Used HTML **multimedia tags** — `<audio>`, `<video>`, `<source>`; practiced adding controls, autoplay, and loop.
+DAY 03:-Used HTML **multimedia tags** — `<audio>`, `<video>`, `<source>`; practiced adding controls, autoplay, and loop.(**https://sathish05007.github.io/Frontend10k/TASK/task1/index.html**)
 
 DAY 04:-Created and styled HTML **forms** with `<input>`, `<textarea>`, `<select>`, radio buttons, and checkboxes. 
 
