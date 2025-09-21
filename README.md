@@ -17,6 +17,7 @@ DAY 05:-RECAP
 DAY 06:-Learned **semantic HTML tags** like `<header>`, `<footer>`, `<article>`, `<section>`, `<nav>`.  
 
 DAY 07:-**Git basics** — creating repositories, `git init`, `git add`, `git commit`. 
+(**https://sathish05007.github.io/Frontend10k/day7/index.html**)
 
 DAY 08:-Continued practicing **Git — branching**, `git status`, `git log`. 
 
