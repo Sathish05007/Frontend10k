@@ -1,0 +1,176 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #111;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    text-shadow: 0 0 10px cyan;
+    animation: glow 2s infinite alternate;
+}
+
+@keyframes glow {
+    from {
+        text-shadow: 0 0 10px cyan;
+    }
+
+    to {
+        text-shadow: 0 0 25px #0ff, 0 0 50px #0ff;
+    }
+}
+
+.section {
+    margin: 40px 0;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+h2 {
+    margin: 20px 0;
+    color: #0ff;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.box {
+    width: 180px;
+    height: 120px;
+    background: #222;
+    border: 2px solid #555;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    border-radius: 10px;
+    animation: scaleUp 1s ease-in-out;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px cyan;
+}
+
+.item {
+    width: 40px;
+    height: 40px;
+    background: #0ff;
+    margin: 3px;
+    border-radius: 5px;
+    animation: bounce 1.5s infinite;
+}
+
+.label {
+    margin-top: 8px;
+    font-size: 14px;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes scaleUp {
+    from {
+        transform: scale(0.8);
+        opacity: 0;
+    }
+
+    to {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-8px);
+    }
+}
+
+/* Justify Content Variants */
+.jc-start {
+    justify-content: flex-start;
+}
+
+.jc-center {
+    justify-content: center;
+}
+
+.jc-end {
+    justify-content: flex-end;
+}
+
+.jc-around {
+    justify-content: space-around;
+}
+
+.jc-between {
+    justify-content: space-between;
+}
+
+.jc-evenly {
+    justify-content: space-evenly;
+}
+
+/* Align Items Variants */
+.ai-start {
+    align-items: flex-start;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.ai-end {
+    align-items: flex-end;
+}
+
+.ai-stretch {
+    align-items: stretch;
+}
+
+/* Align Content Variants */
+.ac-start {
+    align-content: flex-start;
+}
+
+.ac-center {
+    align-content: center;
+}
+
+.ac-end {
+    align-content: flex-end;
+}
+
+.ac-around {
+    align-content: space-around;
+}
+
+.ac-between {
+    align-content: space-between;
+}
+
+.ac-evenly {
+    align-content: space-evenly;
+}
