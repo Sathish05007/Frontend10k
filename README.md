@@ -37,3 +37,5 @@ DAY 12:-**Display**, **Float**, **Overflow**
 DAY 13:-**CSS Box Model**
 
 DAY 14:-**Recap all topics upto box model**
+
+DAY 15:-**CSS Flexbox** properties,It covers all major flexbox concepts like **justify-content, align-items, align-content, flex-grow, flex-shrink, flex-basis**.
