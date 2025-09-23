@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Positions</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      background: #f4f7fa;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .card {
+      border-radius: 12px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+      padding: 20px;
+      margin: 25px auto;
+      max-width: 600px;
+      font-size: 18px;
+      color: #fff;
+      font-weight: bold;
+    }
+
+    /* 1. Static */
+    .static {
+      position: static;
+      background: #3498db; /* Blue */
+    }
+
+    /* 2. Relative */
+    .relative {
+      position: relative;
+      top: 15px;
+      left: 25px;
+      background: #2ecc71; /* Green */
+    }
+
+    /* 3. Absolute */
+    .parent {
+      position: relative;
+      border: 2px dashed #e74c3c;
+      padding: 40px;
+      border-radius: 12px;
+      margin: 25px auto;
+      max-width: 600px;
+      background: #fff;
+    }
+    .absolute {
+      position: absolute;
+      top: 10px;
+      right: 10px;
+      background: #f1c40f; /* Yellow */
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 3px 8px rgba(0,0,0,0.2);
+      color: #333;
+    }
+
+    /* 4. Fixed */
+    .fixed {
+      position: fixed;
+      top: 15px;
+      right: 15px;
+      background: #e67e22; /* Orange */
+      padding: 15px 20px;
+      border-radius: 10px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+      z-index: 1000;
+    }
+
+    /* 5. Sticky */
+    .sticky {
+      position: sticky;
+      top: 0;
+      background: #9b59b6; /* Purple */
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    .spacer {
+      height: 900px; /* for scrolling effect */
+    }
+  </style>
+</head>
+<body>
+
+  <h1>✨ CSS Position Examples ✨</h1>
+
+  <!-- Static -->
+  <div class="card static">
+    1️⃣ Static Position (default flow)
+  </div>
+
+  <!-- Relative -->
+  <div class="card relative">
+    2️⃣ Relative Position (moved 15px down, 25px right)
+  </div>
+
+  <!-- Absolute inside parent -->
+  <div class="parent">
+    <p style="color:#333; font-weight:bold;">Parent (relative container)</p>
+    <div class="absolute">3️⃣ Absolute Position (top-right corner)</div>
+  </div>
+
+  <!-- Sticky -->
+  <div class="sticky">
+    4️⃣ Sticky Position (sticks at top while scrolling)
+  </div>
+
+  <div class="spacer">
+    <p style="color:#555; text-align:center; padding-top:50px;">⬇ Scroll down to see Sticky & Fixed in action ⬇</p>
+  </div>
+
+  <!-- Fixed -->
+  <div class="fixed">
+    5️⃣ Fixed Position (always top-right)
+  </div>
+
+  <div class="spacer"></div>
+
+</body>
+</html>

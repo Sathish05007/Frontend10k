@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: whitesmoke;
+}
+.nav{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: white;
+    height: 10vh;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.nav-left,.nav-right{
+    margin-top: 30px;
+}
+.nav-left h2{
+    font-family: cursive;
+
+}
+.nav-left h2 span{
+    background-color: gray;
+    padding: 0 10px;
+}
+.nav-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+.hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(https://www.w3schools.com/w3images/architect.jpg);
+}
+.hero h2{
+    font-family: cursive;
+    font-size: 50px;
+    color: white;
+}
+.hero h2 span{
+    background-color: gray;
+    padding: 0 10px;
+}
+
+#projects{
+    margin-top: 50px;
+    padding: 50px;
+}
+#projects h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.projects{
+    display: flex;
+    justify-content: space-between;
+    /* border: 3px red solid; */
+    /* height: 100vh; */
+    flex-wrap: wrap;
+}
+.box{
+    width: 24%;
+    position: relative;
+    display: inline-block;
+    margin: 5px;
+}
+.box img{
+    display: block;
+    width: 100%;
+}
+.box h3{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#about{
+    margin-top: 50px;
+    padding: 50px;
+}
+#projects h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.info{
+    margin: 10px;
+}
+.info p{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+}
+.a1{
+    width: 24%;
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.a1 img{
+    width: 100%;
+}
+.a1 h3,h5,p,button{
+    margin: 5px;
+}
+.a1 button{
+    width: 100%;
+    border: 1px gray solid;
+    padding: 5px 30px;
+}
+.a1 button:hover{
+    background-color: rgb(157, 149, 149);
+}
+#contact{
+    padding: 50px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+input{
+    width: 100%;
+    height: 5vh;
+    margin: 5px;
+    padding: 5px;
+}
+.contact button{
+    width: max-content;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+
+}
+
+
+
+
+.f-img{
+    /* border: 2px red solid; */
+    padding: 50px;
+    padding-bottom: 0;
+}
+.f-img img{
+    width: 100%;
+}
+footer p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 6vh;
+    margin-top: 0;
+    padding-top: 20px;
+}
+footer p a{
+    color: white;
+    
+}
+
+
+@media screen and (max-width:376px) and (min-width:320px) {
+    .nav{
+        height: 13vh;
+        display: flex;
+        flex-wrap: wrap;
+        z-index: 10;
+    }
+    .nav-left,.nav-right{
+        margin: 0;
+    }
+    .nav-left h2{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .nav-right a{
+        font-size: 18px;
+    }
+    .hero{
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
+    .hero h2{
+        font-size: 20px;
+    }
+    #projects,#about,#contact{
+        margin: 0;
+        padding: 0;
+    }
+    #projects,#about,#contact h2{
+        text-align: center;
+    }
+    #contact h3{
+        text-align: center;
+    }
+    .box {
+        width: 100%;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .a1{
+        width: 100%;
+    }
+    form input{
+        width: 90%;
+    }
+    .f-img{
+        padding: 0;
+    }
+    footer p{
+        margin: 0;
+    }
+
+    
+}
+
+@media screen and (max-width:426px) and (min-width:377px){
+     .nav{
+        height: 13vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        z-index: 10;
+    }
+    .nav-left,.nav-right{
+        margin: 0;
+    }
+    .nav-left h2{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .nav-right a{
+        font-size: 18px;
+    }
+    .hero{
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
+    .hero h2{
+        font-size: 20px;
+    }
+    #projects,#about,#contact{
+        margin: 0;
+        padding: 0;
+    }
+    #projects,#about,#contact h2{
+        text-align: center;
+    }
+    #contact h3{
+        text-align: center;
+    }
+    .box {
+        width: 100%;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .a1{
+        width: 100%;
+    }
+    form input{
+        width: 90%;
+    }
+    .f-img{
+        padding: 0;
+    }
+    footer p{
+        margin: 0;
+    }
+    
+}
+
+@media screen and (max-width:769px) and (min-width:427px) {
+     .nav{
+        height: 13vh;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        z-index: 10;
+    }
+    .nav-left,.nav-right{
+        margin: 0;
+    }
+    .nav-left h2{
+        font-size: 20px;
+        padding: 10px;
+    }
+    .nav-right a{
+        font-size: 18px;
+    }
+    .hero{
+        height: 50vh;
+        background-position: center;
+        background-size: cover;
+    }
+    .hero h2{
+        font-size: 20px;
+    }
+    #projects,#about,#contact{
+        margin: 0;
+        padding: 0;
+    }
+    #projects,#about,#contact h2{
+        text-align: center;
+    }
+    #contact h3{
+        text-align: center;
+    }
+    .box {
+        width: 48%;
+    }
+    .about{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .a1{
+        width: 44%;
+    }
+    form input{
+        width: 90%;
+    }
+    .f-img{
+        padding: 0;
+    }
+    footer p{
+        margin: 0;
+    }
+    
+}
