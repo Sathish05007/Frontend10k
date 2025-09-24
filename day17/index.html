@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Grid Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8fafc;
+      margin: 0;
+      padding: 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #333;
+    }
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr); /* 3 equal columns */
+      grid-template-rows: 100px 200px 100px; /* 3 rows */
+      gap: 15px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .box {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+      font-weight: bold;
+      border-radius: 10px;
+      color: white;
+    }
+
+    .item1 { background: #3498db; grid-column: 1 / 4; } /* full top row */
+    .item2 { background: #2ecc71; } 
+    .item3 { background: #e67e22; }
+    .item4 { background: #9b59b6; }
+    .item5 { background: #f1c40f; color: #333; grid-column: 2 / 4; } /* span across 2 cols */
+    .item6 { background: #e74c3c; grid-column: 1 / 4; } /* full bottom row */
+
+  </style>
+</head>
+<body>
+
+  <h1>✨ CSS Grid Layout ✨</h1>
+
+  <div class="container">
+    <div class="box item1">Header (1 / span 3 cols)</div>
+    <div class="box item2">Sidebar</div>
+    <div class="box item3">Content 1</div>
+    <div class="box item4">Content 2</div>
+    <div class="box item5">Wide Content (spans 2 cols)</div>
+    <div class="box item6">Footer (1 / span 3 cols)</div>
+  </div>
+
+</body>
+</html>
