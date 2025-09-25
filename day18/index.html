@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Transforms Demo</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+      color: hotpink;
+      letter-spacing: 2px;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    /* Section rows */
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    /* Common box style */
+    .box {
+      width: 150px;
+      height: 150px;
+      background: rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      border: 2px solid rgba(255,255,255,0.2);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      transition: all 1.2s ease-in-out;
+      cursor: pointer;
+      backdrop-filter: blur(5px);
+    }
+
+    .box:hover {
+      box-shadow: 0 8px 20px rgba(255, 20, 147, 0.7);
+    }
+
+    /* Translate */
+    .translate1:hover { transform: translate(100px); }
+    .translatex:hover { transform: translateX(100px); }
+    .translatey:hover { transform: translateY(100px); }
+    .translatez:hover { transform: perspective(500px) translateZ(100px); }
+    .translate3d:hover { transform: perspective(500px) translate3d(100px, 50px, 200px); }
+
+    /* Scale */
+    .scale1:hover { transform: scale(1.5); }
+    .scalex:hover { transform: scaleX(1.8); }
+    .scaley:hover { transform: scaleY(1.8); }
+    .scalez:hover { transform: perspective(500px) rotateY(45deg) scaleZ(2); }
+    .scale3d:hover { transform: perspective(500px) scale3d(1.5, 1.5, 1.5); }
+
+    /* Rotate */
+    .rotate1:hover { transform: rotate(360deg); }
+    .rotatex:hover { transform: rotateX(180deg); }
+    .rotatey:hover { transform: rotateY(180deg); }
+    .rotatez:hover { transform: rotateZ(360deg); }
+    .rotate3d:hover { transform: rotate3d(1, 1, 0, 360deg); }
+
+    /* Skew */
+    .skew1:hover { transform: skew(30deg, 30deg); }
+    .skewx:hover { transform: skewX(45deg); }
+    .skewy:hover { transform: skewY(45deg); }
+    .skewxy:hover { transform: skew(20deg, 20deg); }
+
+    /* Matrix */
+    .matrix1:hover { transform: matrix(1, 0.5, 0.5, 1, 50, 20); }
+    .matrix3d:hover { 
+      transform: perspective(500px) matrix3d(
+        1, 0, 1, 0,
+        0, 1, 0.5, 0,
+        1, 0.5, 1, 0,
+        1, 1, 0, 1
+      );
+    }
+  </style>
+</head>
+<body>
+  <h1>✨ CSS TRANSFORMS DEMO ✨</h1>
+
+  <div class="container">
+
+    <!-- Translate row -->
+    <div class="row">
+      <div class="box translate1">Translate()</div>
+      <div class="box translatex">TranslateX()</div>
+      <div class="box translatey">TranslateY()</div>
+      <div class="box translatez">TranslateZ()</div>
+      <div class="box translate3d">Translate3D()</div>
+    </div>
+
+    <!-- Scale row -->
+    <div class="row">
+      <div class="box scale1">Scale()</div>
+      <div class="box scalex">ScaleX()</div>
+      <div class="box scaley">ScaleY()</div>
+      <div class="box scalez">ScaleZ()</div>
+      <div class="box scale3d">Scale3D()</div>
+    </div>
+
+    <!-- Rotate row -->
+    <div class="row">
+      <div class="box rotate1">Rotate()</div>
+      <div class="box rotatex">RotateX()</div>
+      <div class="box rotatey">RotateY()</div>
+      <div class="box rotatez">RotateZ()</div>
+      <div class="box rotate3d">Rotate3D()</div>
+    </div>
+
+    <!-- Skew row -->
+    <div class="row">
+      <div class="box skew1">Skew()</div>
+      <div class="box skewx">SkewX()</div>
+      <div class="box skewy">SkewY()</div>
+      <div class="box skewxy">SkewXY()</div>
+    </div>
+
+    <!-- Matrix row -->
+    <div class="row">
+      <div class="box matrix1">Matrix()</div>
+      <div class="box matrix3d">Matrix3D()</div>
+    </div>
+
+  </div>
+</body>
+</html>

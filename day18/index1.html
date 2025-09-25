@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CSS Transitions - All in One</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f8fafc;
+      margin: 0;
+      padding: 30px;
+      text-align: center;
+    }
+
+    h1 {
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    section {
+      margin-bottom: 60px;
+    }
+
+    /* -------------------
+       Example 1: Button
+    -------------------- */
+    .btn {
+      background: #3498db;
+      color: white;
+      padding: 15px 30px;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin-top: 20px;
+
+      /* transition applied */
+      transition: background 0.5s ease, transform 0.3s ease;
+    }
+
+    .btn:hover {
+      background: #2ecc71;
+      transform: scale(1.1);
+    }
+
+    /* -------------------
+       Example 2: Card
+    -------------------- */
+    .card {
+      background: white;
+      padding: 30px;
+      width: 280px;
+      margin: 20px auto;
+      text-align: center;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+
+      /* transition on multiple properties */
+      transition: transform 0.4s ease, box-shadow 0.4s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px) scale(1.05);
+      box-shadow: 0 8px 16px rgba(0,0,0,0.3);
+    }
+
+    /* -------------------
+       Example 3: Timing Functions
+    -------------------- */
+    .box {
+      width: 100px;
+      height: 100px;
+      margin: 20px auto;
+      background: #3498db;
+      transition: width 2s;
+    }
+
+    .linear   { transition-timing-function: linear; }
+    .ease     { transition-timing-function: ease; }
+    .ease-in  { transition-timing-function: ease-in; }
+    .ease-out { transition-timing-function: ease-out; }
+    .ease-in-out { transition-timing-function: ease-in-out; }
+
+    .box:hover {
+      width: 300px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>✨ CSS Transitions - All in One ✨</h1>
+
+  <!-- Example 1 -->
+  <section>
+    <h2>1️⃣ Button Hover</h2>
+    <button class="btn">Hover Me</button>
+  </section>
+
+  <!-- Example 2 -->
+  <section>
+    <h2>2️⃣ Card Hover</h2>
+    <div class="card">
+      <h3>CSS Transitions ✨</h3>
+      <p>Hover me for effect!</p>
+    </div>
+  </section>
+
+  <!-- Example 3 -->
+  <section>
+    <h2>3️⃣ Transition Timing Functions</h2>
+    <p>Hover each box to see different timing functions</p>
+    <div class="box linear">linear</div>
+    <div class="box ease">ease</div>
+    <div class="box ease-in">ease-in</div>
+    <div class="box ease-out">ease-out</div>
+    <div class="box ease-in-out">ease-in-out</div>
+  </section>
+
+</body>
+</html>
