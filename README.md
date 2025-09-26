@@ -45,3 +45,5 @@ DAY 16:-**Positions** in css
 day 17:-**Grid** in css
 
 DAY 18:-**Transitions&Transforms** in css
+
+DAY 19:-**Animations** in css
