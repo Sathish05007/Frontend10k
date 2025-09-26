@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Behind The Sun Animation (Hover)</title>
+  <style>
+    * {
+       margin: 0; 
+       padding: 0;
+        box-sizing: border-box;
+       }
+    body{
+      background-color: rgb(183, 180, 180);
+    }
+    .container{
+      background: #090a0f;
+      height: 70vh;
+      width: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: auto;
+      margin-top: 100px;
+      border-radius: 20px;
+    }
+
+    .sun-container {
+      position: relative;
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      background: radial-gradient(circle at center, #ffdd33, #ffbb22);
+      transition: transform 0.5s, background 0.5s;
+    }
+
+    .sun-container::before,
+    .sun-container::after {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      border-radius: 50%;
+      opacity: 0;
+      transition: all 0.5s ease;
+    }
+
+    .sun-container::before {
+      width: 220px;
+      height: 220px;
+      box-shadow: 0 0 30px rgba(255, 200, 50, 0.989),
+                  0 0 60px rgba(255, 149, 0, 0.999),
+                  0 0 90px rgba(255, 102, 0, 0.993);
+    }
+
+    .sun-container::after {
+      width: 240px;
+      height: 240px;
+      box-shadow: 0 0 50px rgba(255, 200, 50, 0.5),
+                  0 0 100px rgba(255, 150, 0, 0.3),
+                  0 0 150px rgba(198, 103, 40, 0.903);
+    }
+
+   
+    .sun-container:hover {
+      animation: glow 3s ease-in-out infinite alternate;
+      cursor: pointer;
+    }
+
+    .sun-container:hover::before {
+      opacity: 0.6;
+      animation: pulse 3s ease-in-out infinite alternate;
+    }
+
+    .sun-container:hover::after {
+      opacity: 0.4;
+      animation: pulse 3s ease-in-out infinite alternate-reverse;
+    }
+
+    @keyframes glow {
+      from {
+        transform: scale(0.95);
+        background: radial-gradient(circle at center, #ffdd33, #ffbb22);
+      }
+      to {
+        transform: scale(1.05);
+        background: radial-gradient(circle at center, #ffe066, #ffcc33);
+      }
+    }
+
+    @keyframes pulse {
+      from {
+        transform: translate(-50%, -50%) scale(0.9);
+        opacity: 0.5;
+      }
+      to {
+        transform: translate(-50%, -50%) scale(1.1);
+        opacity: 0.8;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+  <div class="sun-container"></div>
+  </div>
+</body>
+</html>
