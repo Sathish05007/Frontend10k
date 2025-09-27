@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Fade In on Scroll</title>
+  <style>
+    body {
+      background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+      font-family: 'Segoe UI', Tahoma, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #fff;
+    }
+
+    h1 {
+      text-align: center;
+      padding: 20px;
+      color: hotpink;
+      letter-spacing: 2px;
+    }
+
+    h2 {
+      text-align: center;
+      margin: 100px 0 30px;
+      font-size: 2rem;
+      font-weight: 600;
+    }
+
+    .container {
+      display: flex;
+      flex-direction: column;
+      gap: 80px;
+      padding: 30px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 20px;
+    }
+
+    .box {
+      width: 150px;
+      height: 150px;
+      background: rgba(255, 255, 255, 0.08);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 12px;
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      border: 2px solid rgba(255,255,255,0.2);
+      box-shadow: 0 4px 10px rgba(0,0,0,0.4);
+      backdrop-filter: blur(5px);
+      opacity: 0;
+      transform: translateY(40px); /* hidden state */
+      transition: all 0.8s ease;
+    }
+
+    .box:hover {
+      box-shadow: 0 8px 20px rgba(255, 20, 147, 0.7);
+      cursor: pointer;
+    }
+
+    /* Active visible state */
+    .box.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    /* Direction-based transforms */
+    .fade-left .box { transform: translateX(-40px); }
+    .fade-right .box { transform: translateX(40px); }
+    .fade-up .box { transform: translateY(40px); }
+    .fade-down .box { transform: translateY(-40px); }
+    .fade-center .box { transform: scale(0.5); }
+
+    /* When visible apply fade-in */
+    .fade-left .box.visible { transform: translateX(0); }
+    .fade-right .box.visible { transform: translateX(0); }
+    .fade-up .box.visible { transform: translateY(0); }
+    .fade-down .box.visible { transform: translateY(0); }
+    .fade-center .box.visible { transform: scale(1); }
+
+    /* stagger delay */
+    .box:nth-child(1) { transition-delay: 0.2s; }
+    .box:nth-child(2) { transition-delay: 0.4s; }
+    .box:nth-child(3) { transition-delay: 0.6s; }
+    .box:nth-child(4) { transition-delay: 0.8s; }
+  </style>
+</head>
+<body>
+  <h1>Fade In Directions on Scroll</h1>
+  <div class="container">
+
+    <h2>Fade In Left</h2>
+    <div class="row fade-left">
+      <div class="box">Box 1</div>
+      <div class="box">Box 2</div>
+      <div class="box">Box 3</div>
+      <div class="box">Box 4</div>
+    </div>
+
+    <h2>Fade In Right</h2>
+    <div class="row fade-right">
+      <div class="box">Box 5</div>
+      <div class="box">Box 6</div>
+      <div class="box">Box 7</div>
+      <div class="box">Box 8</div>
+    </div>
+
+    <h2>Fade In Up</h2>
+    <div class="row fade-up">
+      <div class="box">Box 9</div>
+      <div class="box">Box 10</div>
+      <div class="box">Box 11</div>
+      <div class="box">Box 12</div>
+    </div>
+
+    <h2>Fade In Down</h2>
+    <div class="row fade-down">
+      <div class="box">Box 13</div>
+      <div class="box">Box 14</div>
+      <div class="box">Box 15</div>
+      <div class="box">Box 16</div>
+    </div>
+
+    <h2>Fade In Center</h2>
+    <div class="row fade-center">
+      <div class="box">Box 17</div>
+      <div class="box">Box 18</div>
+      <div class="box">Box 19</div>
+      <div class="box">Box 20</div>
+    </div>
+
+  </div>
+
+  <script>
+    const boxes = document.querySelectorAll('.box');
+
+    const observer = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.2 });
+
+    boxes.forEach(box => observer.observe(box));
+  </script>
+</body>
+</html>
