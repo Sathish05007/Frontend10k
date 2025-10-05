@@ -57,6 +57,7 @@ DAY 18:-**Transitions&Transforms** in css
 
 DAY 19:-**Animations** in css
 (**https://sathish05007.github.io/Frontend10k/day19/index.html**)
+(**https://sathish05007.github.io/Frontend10k/day18/index1.html**)
 
 DAY 20:-**Media Queries** in css & **Fade** in css
 (**https://sathish05007.github.io/Frontend10k/Day20/media.html**)
