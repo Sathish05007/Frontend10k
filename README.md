@@ -63,4 +63,7 @@ DAY 20:-**Media Queries** in css & **Fade** in css
 (**https://sathish05007.github.io/Frontend10k/Day20/media.html**)
 (**https://sathish05007.github.io/Frontend10k/Day20/index.html**)
 
-📌📌CSS MINI PROJECT DEMO:-https://sathish05007.github.io/Frontend10k/css-mini%20project/index.html
+📌📌CSS MINI PROJECT DEMO:-**https://sathish05007.github.io/Frontend10k/css-mini%20project/index.html**
+
+📍📍CSS MAJOR PROJECT DEMO: **https://sathish05007.github.io/Frontend10k/css-major%20project/index.html**
+
