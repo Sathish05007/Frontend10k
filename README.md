@@ -18,6 +18,7 @@ DAY 04:-Created and styled HTML **forms** with `<input>`, `<textarea>`, `<select
 DAY 05:-RECAP
 
 DAY 06:-Learned **semantic HTML tags** like `<header>`, `<footer>`, `<article>`, `<section>`, `<nav>`.  
+(**https://sathish05007.github.io/Frontend10k/day6/index.html**)
 
 DAY 07:-**Git basics** — creating repositories, `git init`, `git add`, `git commit`. 
 (**https://sathish05007.github.io/Frontend10k/day7/index.html**)
