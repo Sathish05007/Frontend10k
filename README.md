@@ -18,6 +18,7 @@ DAY 04:-Created and styled HTML **forms** with `<input>`, `<textarea>`, `<select
 DAY 05:-RECAP
 
 DAY 06:-Learned **semantic HTML tags** like `<header>`, `<footer>`, `<article>`, `<section>`, `<nav>`.  
+(**https://sathish05007.github.io/Frontend10k/day6/index.html**)
 
 DAY 07:-**Git basics** — creating repositories, `git init`, `git add`, `git commit`. 
 (**https://sathish05007.github.io/Frontend10k/day7/index.html**)
@@ -25,25 +26,41 @@ DAY 07:-**Git basics** — creating repositories, `git init`, `git add`, `git co
 DAY 08:-Continued practicing **Git — branching**, `git status`, `git log`. 
 (**https://sathish05007.github.io/Frontend10k/day8/index.html**)
 
-DAY 09:-Learned the**basics of CSS**and how it works with HTML.
+DAY 09:-Learned the**basics of CSS**and how it works with HTML. 
 Explored **colors.**
+(**https://sathish05007.github.io/Frontend10k/day9/index.html**)
 
 DAY 10:- **CSS Selectors** ` Universal Selector`,` Element Selector`,` ID Selector`,`Class Selector`,(**https://sathish05007.github.io/Frontend10k/day9/index.html**)
 
 DAY 11:-**Text Properties**,**Font Properties**,**Background Properties**
+(**https://sathish05007.github.io/Frontend10k/Day11/index.html**)
 
 DAY 12:-**Display**, **Float**, **Overflow**
+(**https://sathish05007.github.io/Frontend10k/Day12/index.html**)
 
 DAY 13:-**CSS Box Model**
+(**https://sathish05007.github.io/Frontend10k/Day13/index.html**)
 
 DAY 14:-**Recap all topics upto box model**
 
 DAY 15:-**CSS Flexbox** properties,It covers all major flexbox concepts like **justify-content, align-items, align-content, flex-grow, flex-shrink, flex-basis**.
+(**https://sathish05007.github.io/Frontend10k/day15/index.html**)
 
 DAY 16:-**Positions** in css
+(**https://sathish05007.github.io/Frontend10k/day16/index.html**)
 
 day 17:-**Grid** in css
+(**https://sathish05007.github.io/Frontend10k/day17/index.html**)
 
 DAY 18:-**Transitions&Transforms** in css
+(**https://sathish05007.github.io/Frontend10k/day18/index.html**)
 
 DAY 19:-**Animations** in css
+(**https://sathish05007.github.io/Frontend10k/day19/index.html**)
+(**https://sathish05007.github.io/Frontend10k/day18/index1.html**)
+
+DAY 20:-**Media Queries** in css & **Fade** in css
+(**https://sathish05007.github.io/Frontend10k/Day20/media.html**)
+(**https://sathish05007.github.io/Frontend10k/Day20/index.html**)
+
+📌📌CSS MINI PROJECT DEMO:-https://sathish05007.github.io/table-book-website-/
