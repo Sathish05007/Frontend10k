@@ -33,6 +33,7 @@ Explored **colors.**
 DAY 10:- **CSS Selectors** ` Universal Selector`,` Element Selector`,` ID Selector`,`Class Selector`,(**https://sathish05007.github.io/Frontend10k/day9/index.html**)
 
 DAY 11:-**Text Properties**,**Font Properties**,**Background Properties**
+(**https://sathish05007.github.io/Frontend10k/Day11/index.html**)
 
 DAY 12:-**Display**, **Float**, **Overflow**
 
