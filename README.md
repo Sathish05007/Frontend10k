@@ -56,7 +56,9 @@ DAY 18:-**Transitions&Transforms** in css
 (**https://sathish05007.github.io/Frontend10k/day18/index.html**)
 
 DAY 19:-**Animations** in css
+(**https://sathish05007.github.io/Frontend10k/day19/index.html**)
 
 DAY 20:-**Media Queries** in css
+(**https://sathish05007.github.io/Frontend10k/Day20/index.html**)
 
 CSS MINI PROJECT DEMO:-https://sathish05007.github.io/table-book-website-/
