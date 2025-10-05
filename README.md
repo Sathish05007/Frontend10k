@@ -36,8 +36,10 @@ DAY 11:-**Text Properties**,**Font Properties**,**Background Properties**
 (**https://sathish05007.github.io/Frontend10k/Day11/index.html**)
 
 DAY 12:-**Display**, **Float**, **Overflow**
+(**https://sathish05007.github.io/Frontend10k/Day12/index.html**)
 
 DAY 13:-**CSS Box Model**
+(**https://sathish05007.github.io/Frontend10k/Day13/index.html**)
 
 DAY 14:-**Recap all topics upto box model**
 
