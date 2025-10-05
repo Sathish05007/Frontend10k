@@ -47,10 +47,13 @@ DAY 15:-**CSS Flexbox** properties,It covers all major flexbox concepts like **j
 (**https://sathish05007.github.io/Frontend10k/day15/index.html**)
 
 DAY 16:-**Positions** in css
+(**https://sathish05007.github.io/Frontend10k/day16/index.html**)
 
 day 17:-**Grid** in css
+(**https://sathish05007.github.io/Frontend10k/day17/index.html**)
 
 DAY 18:-**Transitions&Transforms** in css
+(**https://sathish05007.github.io/Frontend10k/day18/index.html**)
 
 DAY 19:-**Animations** in css
 
