@@ -45,12 +45,16 @@ DAY 14:-**Recap all topics upto box model**
 
 DAY 15:-**CSS Flexbox** properties,It covers all major flexbox concepts like **justify-content, align-items, align-content, flex-grow, flex-shrink, flex-basis**.
 (**https://sathish05007.github.io/Frontend10k/css-day7/index.html**)
+(**https://sathish05007.github.io/Frontend10k/TASK(html&css)/task6/index.html**)
 
 DAY 16:-**Positions** in css
 (**https://sathish05007.github.io/Frontend10k/css-day8/index.html**)
+(**https://sathish05007.github.io/Frontend10k/TASK(html&css)/task7/index.html**)
 
 day 17:-**Grid** in css
 (**https://sathish05007.github.io/Frontend10k/css-day9/index.html**)
+(**https://sathish05007.github.io/Frontend10k/TASK(html&css)/task8/index.html**)
+(**https://sathish05007.github.io/Frontend10k/TASK(html&css)/task9/index.html**)
 
 DAY 18:-**Transitions&Transforms** in css
 (**https://sathish05007.github.io/Frontend10k/css-day10/index.html**)
