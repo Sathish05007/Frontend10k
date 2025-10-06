@@ -44,24 +44,25 @@ DAY 13:-**CSS Box Model**
 DAY 14:-**Recap all topics upto box model**
 
 DAY 15:-**CSS Flexbox** properties,It covers all major flexbox concepts like **justify-content, align-items, align-content, flex-grow, flex-shrink, flex-basis**.
-(**https://sathish05007.github.io/Frontend10k/css-day6/index.html**)
-
-DAY 16:-**Positions** in css
 (**https://sathish05007.github.io/Frontend10k/css-day7/index.html**)
 
-day 17:-**Grid** in css
+DAY 16:-**Positions** in css
 (**https://sathish05007.github.io/Frontend10k/css-day8/index.html**)
 
-DAY 18:-**Transitions&Transforms** in css
+day 17:-**Grid** in css
 (**https://sathish05007.github.io/Frontend10k/css-day9/index.html**)
 
-DAY 19:-**Animations** in css
+DAY 18:-**Transitions&Transforms** in css
 (**https://sathish05007.github.io/Frontend10k/css-day10/index.html**)
 (**https://sathish05007.github.io/Frontend10k/css-day10/index1.html**)
 
-DAY 20:-**Media Queries** in css & **Fade** in css
-(**https://sathish05007.github.io/Frontend10k/css-day11/media.html**)
+DAY 19:-**Animations** in css
 (**https://sathish05007.github.io/Frontend10k/css-day11/index.html**)
+
+
+DAY 20:-**Media Queries** in css & **Fade** in css
+(**https://sathish05007.github.io/Frontend10k/css-day12/media.html**)
+(**https://sathish05007.github.io/Frontend10k/css-day12/index.html**)
 
 📌📌CSS MINI PROJECT DEMO:-**https://sathish05007.github.io/Frontend10k/css-mini%20project/index.html**
 
